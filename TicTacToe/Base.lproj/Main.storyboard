@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,266 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O4-J8-KYj">
+                                <rect key="frame" x="72" y="128" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="9Ok-ir-jWE"/>
+                                    <constraint firstAttribute="height" constant="21" id="cLw-lF-scw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wJ0-ps-YEr" appends="YES" id="fFv-5j-V2f"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYA-2y-C0m">
+                                <rect key="frame" x="154" y="128" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="8DB-Ja-7Vy"/>
+                                    <constraint firstAttribute="height" constant="21" id="BPV-MJ-vcr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZAR-m4-Bud" appends="YES" id="QYd-bz-bfh"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBi-fg-NL0">
+                                <rect key="frame" x="154" y="199" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Vj-RD-Qfz"/>
+                                    <constraint firstAttribute="width" constant="12" id="U7e-Z4-cbX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wsv-3G-Zls" appends="YES" id="CP3-hU-vCb"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZY4-o7-Esg">
+                                <rect key="frame" x="154" y="270" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="RvE-y2-ddy"/>
+                                    <constraint firstAttribute="height" constant="21" id="eP5-P6-dJZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="r73-f2-XU0" appends="YES" id="XM3-sk-0EH"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0T-xj-mZ2">
+                                <rect key="frame" x="236" y="128" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="m3v-ch-Hvj"/>
+                                    <constraint firstAttribute="width" constant="12" id="v8x-5a-fpJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JQ8-1S-ehn" appends="YES" id="z7i-kq-rY3"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwK-vJ-mQm">
+                                <rect key="frame" x="236" y="199" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="3v7-i4-o8q"/>
+                                    <constraint firstAttribute="height" constant="21" id="myI-e3-OD5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rOe-in-Adj" appends="YES" id="lQF-76-HhQ"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhk-hq-F1Z">
+                                <rect key="frame" x="236" y="270" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="6PL-qe-S2r"/>
+                                    <constraint firstAttribute="height" constant="21" id="puF-gc-1oi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="nlu-ya-q8h" appends="YES" id="mXm-Eb-2Sd"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBu-nL-crs">
+                                <rect key="frame" x="72" y="199" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fR5-sx-Nze"/>
+                                    <constraint firstAttribute="width" constant="12" id="hDz-6j-nPR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UYW-te-Bxx" appends="YES" id="GRF-A4-e1c"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfm-Pn-0DJ">
+                                <rect key="frame" x="72" y="270" width="12" height="21"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="7Ya-Ru-TdA"/>
+                                    <constraint firstAttribute="height" constant="21" id="wWI-ln-jHp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XOa-lD-cBY" appends="YES" id="JwS-aH-Zw0"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Toe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOg-9c-qwx">
+                                <rect key="frame" x="116" y="49" width="88" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="3XO-mR-yZT"/>
+                                    <constraint firstAttribute="height" constant="21" id="oD8-mq-DXt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player's Turn:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHu-qD-tMP">
+                                <rect key="frame" x="72" y="375" width="103" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bE3-F2-c8C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mie-A0-IEf">
+                                <rect key="frame" x="192" y="375" width="12" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8Gf-Sf-AiP"/>
+                                    <constraint firstAttribute="width" constant="12" id="Bvr-wb-7pG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="mie-A0-IEf" firstAttribute="leading" secondItem="wHu-qD-tMP" secondAttribute="trailing" constant="17" id="4kj-WV-uzy"/>
+                            <constraint firstItem="ZY4-o7-Esg" firstAttribute="leading" secondItem="Yfm-Pn-0DJ" secondAttribute="trailing" constant="70" id="Bq3-AI-IDK"/>
+                            <constraint firstItem="FYA-2y-C0m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="CKX-KM-KMs"/>
+                            <constraint firstItem="UBi-fg-NL0" firstAttribute="top" secondItem="FYA-2y-C0m" secondAttribute="bottom" constant="50" id="Cx6-yr-sAs"/>
+                            <constraint firstItem="ZY4-o7-Esg" firstAttribute="top" secondItem="UBi-fg-NL0" secondAttribute="bottom" constant="50" id="SYV-2R-JZr"/>
+                            <constraint firstItem="5O4-J8-KYj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="SkX-3V-Wij"/>
+                            <constraint firstItem="FYA-2y-C0m" firstAttribute="leading" secondItem="5O4-J8-KYj" secondAttribute="trailing" constant="70" id="WuC-Uu-ukf"/>
+                            <constraint firstItem="wHu-qD-tMP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="Xdm-4S-e4y"/>
+                            <constraint firstItem="FYA-2y-C0m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fNQ-ba-NGV"/>
+                            <constraint firstItem="Yfm-Pn-0DJ" firstAttribute="top" secondItem="lBu-nL-crs" secondAttribute="bottom" constant="50" id="fkr-88-GUd"/>
+                            <constraint firstItem="dhk-hq-F1Z" firstAttribute="top" secondItem="QwK-vJ-mQm" secondAttribute="bottom" constant="50" id="g8Y-yz-ixW"/>
+                            <constraint firstItem="mie-A0-IEf" firstAttribute="leading" secondItem="wHu-qD-tMP" secondAttribute="trailing" constant="17" id="gm4-Ea-rd6"/>
+                            <constraint firstItem="ZY4-o7-Esg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iLM-vE-1wT"/>
+                            <constraint firstItem="lBu-nL-crs" firstAttribute="top" secondItem="5O4-J8-KYj" secondAttribute="bottom" constant="50" id="m2W-Qy-F3G"/>
+                            <constraint firstItem="QwK-vJ-mQm" firstAttribute="top" secondItem="s0T-xj-mZ2" secondAttribute="bottom" constant="50" id="nhX-n5-xsX"/>
+                            <constraint firstItem="UBi-fg-NL0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="plJ-md-tP9"/>
+                            <constraint firstItem="wHu-qD-tMP" firstAttribute="top" secondItem="Yfm-Pn-0DJ" secondAttribute="bottom" constant="84" id="ppS-ZF-Pki"/>
+                            <constraint firstItem="UBi-fg-NL0" firstAttribute="leading" secondItem="lBu-nL-crs" secondAttribute="trailing" constant="70" id="qka-6W-hpw"/>
+                            <constraint firstItem="mie-A0-IEf" firstAttribute="top" secondItem="EOg-9c-qwx" secondAttribute="bottom" constant="305" id="qzn-09-6WC"/>
+                            <constraint firstItem="s0T-xj-mZ2" firstAttribute="leading" secondItem="FYA-2y-C0m" secondAttribute="trailing" constant="70" id="rQG-Ah-Nee"/>
+                            <constraint firstItem="EOg-9c-qwx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="sT2-fn-TcW"/>
+                            <constraint firstItem="dhk-hq-F1Z" firstAttribute="leading" secondItem="ZY4-o7-Esg" secondAttribute="trailing" constant="70" id="sgX-FS-Rxv"/>
+                            <constraint firstItem="EOg-9c-qwx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tFL-Im-Bvi"/>
+                            <constraint firstItem="s0T-xj-mZ2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="uIy-Pu-LGf"/>
+                            <constraint firstItem="QwK-vJ-mQm" firstAttribute="leading" secondItem="UBi-fg-NL0" secondAttribute="trailing" constant="70" id="vnQ-i5-xt4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gameBoxEight" destination="ZY4-o7-Esg" id="q9U-wH-TqY"/>
+                        <outlet property="gameBoxFive" destination="UBi-fg-NL0" id="Ob9-vY-gWW"/>
+                        <outlet property="gameBoxFour" destination="lBu-nL-crs" id="TCm-H6-dzv"/>
+                        <outlet property="gameBoxNine" destination="dhk-hq-F1Z" id="vnl-YX-c0w"/>
+                        <outlet property="gameBoxOne" destination="5O4-J8-KYj" id="hny-DY-sAa"/>
+                        <outlet property="gameBoxSeven" destination="Yfm-Pn-0DJ" id="RCB-u5-Ej1"/>
+                        <outlet property="gameBoxSix" destination="QwK-vJ-mQm" id="ioj-lk-Kya"/>
+                        <outlet property="gameBoxThree" destination="s0T-xj-mZ2" id="0vr-Hl-V9f"/>
+                        <outlet property="gameBoxTwo" destination="FYA-2y-C0m" id="3hG-SB-2XW"/>
+                        <outlet property="playerTurnLabel" destination="wHu-qD-tMP" id="ogc-6u-KjH"/>
+                        <outlet property="playerTurnSignLabel" destination="mie-A0-IEf" id="Urw-4V-tFp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="wJ0-ps-YEr">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="IpU-Ex-r5Z"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ZAR-m4-Bud">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="oRf-OG-v1K"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="JQ8-1S-ehn">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="UWf-uP-vYY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="UYW-te-Bxx">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="LWy-vg-zWk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wsv-3G-Zls">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="Tnc-Ru-OWr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="rOe-in-Adj">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="zcm-ER-qED"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="XOa-lD-cBY">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="qVU-Br-gVj"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="r73-f2-XU0">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="abe-DZ-Tw2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="nlu-ya-q8h">
+                    <connections>
+                        <action selector="gestureTapped:" destination="BYZ-38-t0r" id="1vU-ba-q8w"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="181.33333333333334" y="366.83333333333331"/>
         </scene>
